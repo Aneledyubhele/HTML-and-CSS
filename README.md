@@ -3,7 +3,7 @@
 What is HTML
 
 HTML (Hypertext Makeup Language)
-HTML is a language used to make web pages. It helps developers organize content like titles, paragraphs, and links. It uses tags enclosed in angle brackets to define different parts of a page. Opening tags start an element, and closing tags end it (<p>, </p>).
+HTML is a language used to make web pages. It helps developers organize content like titles, paragraphs, and links. It uses tags enclosed in angle brackets to define different parts of a page. Opening tags start an element, and closing tags end it (`<p>`, `</p>`).
 
 CSS
 
@@ -20,7 +20,7 @@ HTML is a language for organizing web pages using tags enclosed in < and > symbo
 
 HTML Paragraphs
 
-To make text appear as separate paragraphs on a webpage, we use HTML tags called <p> and </p>. These tags indicate the beginning and end of each paragraph. Without these tags, the browser treats multiple lines of text as a single paragraph. By adding <p> before the first paragraph and </p> after each paragraph, the browser understands that they are distinct paragraphs.
+To make text appear as separate paragraphs on a webpage, we use HTML tags called `<p>` and `</p>`. These tags indicate the beginning and end of each paragraph. Without these tags, the browser treats multiple lines of text as a single paragraph. By adding `<p>` before the first paragraph and `</p>` after each paragraph, the browser understands that they are distinct paragraphs.
 
 HTML headlines
 
@@ -31,22 +31,22 @@ well makes content easier to understand and improves the user experience.
 
 HTML Bold and Italics
 
-HTML offers four elements for emphasizing text: "<i>", "<em>", "<b>", and "<strong>". Each serves a distinct purpose. "<i>" and "<em>" 
-are for italics, with "<em>" adding emphasis while "<i>" is used for titles or other non-emphasized text. Similarly, "<b>" and 
-"<strong>" create bold text, with "<strong>" indicating importance or urgency, while "<b>" is purely visual. It's important to ch
+HTML offers four elements for emphasizing text: "`<i>`", "`<em>`", "`<b>`", and "`<strong>`". Each serves a distinct purpose. "`<i>`" and "`<em>`" 
+are for italics, with "`<em>`" adding emphasis while "`<i>`" is used for titles or other non-emphasized text. Similarly, "`<b>`" and 
+"`<strong>`" create bold text, with "`<strong>`" indicating importance or urgency, while "`<b>`" is purely visual. It's important to ch
 oose the appropriate element based on the intended meaning of the emphasized text to convey semantic clarity and enhance user 
 experience.
 
 HTML have three types of lists:
 (unordered lists, ordered lists, and definition lists.) 
 
-1. **Unordered Lists**: Commonly used for lists without a specific order, like ingredients in a recipe. Each item is enclosed in `<li>` 
+1. `**Unordered Lists**`: Commonly used for lists without a specific order, like ingredients in a recipe. Each item is enclosed in `<li>` 
 tags, and the entire list is wrapped in `<ul>` tags. The appearance of list markers is determined by the browser, but `<ul>` conveys 
 the meaning, and CSS can later change its appearance.
 
-2. **Ordered Lists**: Similar to unordered lists, but items have a specific order, like steps in a recipe. Enclosed in `<li>` tags, the list is wrapped in `<ol>` tags to display numbered steps, indicating a clear order.
+2. `**Ordered Lists**`: Similar to unordered lists, but items have a specific order, like steps in a recipe. Enclosed in `<li>` tags, the list is wrapped in `<ol>` tags to display numbered steps, indicating a clear order.
 
-3. **Definition Lists**: Used for key-value pairs, resembling dictionary entries. Each term is enclosed in `<dt>` tags, and its 
+3. `**Definition Lists**`: Used for key-value pairs, resembling dictionary entries. Each term is enclosed in `<dt>` tags, and its 
 corresponding description is enclosed in `<dd>` tags. Multiple descriptions for a term are supported. The entire list is wrapped in 
 `<dl>` tags. Unlike other lists, `<dt>` and `<dd>` tags are placed side by side without additional wrappers.
 
@@ -54,10 +54,10 @@ corresponding description is enclosed in `<dd>` tags. Multiple descriptions for 
 
 HTML provides elements for marking up quotes on webpages, including blockquotes and inline quotes. 
 
-1. **Blockquotes**: Used for longer quotes, blockquotes are enclosed in `<blockquote>` tags and can contain any HTML elements. They are
+1. `**Blockquotes**`: Used for longer quotes, blockquotes are enclosed in `<blockquote>` tags and can contain any HTML elements. They are
  used to distinguish quoted content from the surrounding text and can be styled with CSS.
 
-2. **Inline Quotes**: Enclosed in `<q>` tags, inline quotes are for shorter quotes within text. They automatically add appropriate 
+2. `**Inline Quotes**`: Enclosed in `<q>` tags, inline quotes are for shorter quotes within text. They automatically add appropriate 
 quote marks and are useful for maintaining consistency across different languages and regions.
 
 HTML attributes like `datetime` in the `<time>` element allow specifying dates and times in a machine-readable format. This is crucial for indicating the time of publication or other time-related information on webpages.
@@ -80,8 +80,8 @@ HTML Superscripts, Subscripts and Small Text
 
 HTML provides elements for handling superscripts, subscripts, and small text to convey different meanings and levels of importance in
 content. Subscripts are characters set below the baseline, like in chemical formulas, while superscripts are characters set above the 
-baseline, often used in mathematical formulas or footnotes. These can be marked up using the <sub> and <sup> elements, respectively. 
-Additionally, small text, indicating less prominence, can be marked with the <small> element, useful for fine print or less important 
+baseline, often used in mathematical formulas or footnotes. These can be marked up using the `<sub>` and `<sup>` elements, respectively. 
+Additionally, small text, indicating less prominence, can be marked with the `<small>` element, useful for fine print or less important 
 details. These elements aid in conveying precise typography and meaning in HTML content.
 
 HTML attributes
@@ -111,16 +111,15 @@ broadening web inclusivity and enabling seamless interaction for all users.
 Formatting HTML
 
 Fomatting involves managing whitespace, comments, letter case, element length, and self-closing tags. While HTML typically disregards 
-extra spaces and line breaks, exceptions exist for certain elements like <pre>, <code>, and <textarea>, or with CSS adjustments. 
+extra spaces and line breaks, exceptions exist for certain elements like `<pre>`, `<code>`, and `<textarea>`, or with CSS adjustments. 
 Comments aid readability but are ignored by browsers. The uppercase vs. lowercase debate in HTML has shifted towards lowercase for 
 better readability, though browsers are unaffected. Element length reflects historical considerations for file size optimization, with 
-newer elements favoring complete words for clarity. Self-closing tags, once emphasized, are now optional for older elements like <img>
+newer elements favoring complete words for clarity. Self-closing tags, once emphasized, are now optional for older elements like `<img>`
 with formatting choices driven by readability and personal preference. Browsers accommodate diverse styles.
 
 Unsual Characters
 
-In HTML, certain symbols like <, >, and & have special meanings. If you want to display them as regular text instead of being
-interpreted as HTML code, you can use character entities. These entities are combinations of symbols like "&copy;" for © or "&nbsp;" 
+In HTML, certain symbols like <, >, and & have special meanings. If you want to display them as regular text instead of beinginterpreted as HTML code, you can use character entities. These entities are combinations of symbols like "`&copy;`" for © or "`&nbsp;`" 
 for non-breaking spaces. They help ensure that your content appears as intended on webpages, even if you're using content management 
 systems like WordPress or markdown. Non-breaking spaces are particularly useful for keeping words together or creating multiple spaces
 between words, ensuring proper formatting on your webpage.
