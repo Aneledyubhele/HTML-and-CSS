@@ -40,13 +40,13 @@ experience.
 HTML have three types of lists:
 (unordered lists, ordered lists, and definition lists.) 
 
-1. `**Unordered Lists**`: Commonly used for lists without a specific order, like ingredients in a recipe. Each item is enclosed in `<li>` 
+1. `Unordered Lists`: Commonly used for lists without a specific order, like ingredients in a recipe. Each item is enclosed in `<li>` 
 tags, and the entire list is wrapped in `<ul>` tags. The appearance of list markers is determined by the browser, but `<ul>` conveys 
 the meaning, and CSS can later change its appearance.
 
-2. `**Ordered Lists**`: Similar to unordered lists, but items have a specific order, like steps in a recipe. Enclosed in `<li>` tags, the list is wrapped in `<ol>` tags to display numbered steps, indicating a clear order.
+2. `Ordered Lists`: Similar to unordered lists, but items have a specific order, like steps in a recipe. Enclosed in `<li>` tags, the list is wrapped in `<ol>` tags to display numbered steps, indicating a clear order.
 
-3. `**Definition Lists**`: Used for key-value pairs, resembling dictionary entries. Each term is enclosed in `<dt>` tags, and its 
+3. `Definition Lists`: Used for key-value pairs, resembling dictionary entries. Each term is enclosed in `<dt>` tags, and its 
 corresponding description is enclosed in `<dd>` tags. Multiple descriptions for a term are supported. The entire list is wrapped in 
 `<dl>` tags. Unlike other lists, `<dt>` and `<dd>` tags are placed side by side without additional wrappers.
 
@@ -54,10 +54,10 @@ corresponding description is enclosed in `<dd>` tags. Multiple descriptions for 
 
 HTML provides elements for marking up quotes on webpages, including blockquotes and inline quotes. 
 
-1. `**Blockquotes**`: Used for longer quotes, blockquotes are enclosed in `<blockquote>` tags and can contain any HTML elements. They are
+1. `Blockquotes`: Used for longer quotes, blockquotes are enclosed in `<blockquote>` tags and can contain any HTML elements. They are
  used to distinguish quoted content from the surrounding text and can be styled with CSS.
 
-2. `**Inline Quotes**`: Enclosed in `<q>` tags, inline quotes are for shorter quotes within text. They automatically add appropriate 
+2. `Inline Quotes`: Enclosed in `<q>` tags, inline quotes are for shorter quotes within text. They automatically add appropriate 
 quote marks and are useful for maintaining consistency across different languages and regions.
 
 HTML attributes like `datetime` in the `<time>` element allow specifying dates and times in a machine-readable format. This is crucial for indicating the time of publication or other time-related information on webpages.
