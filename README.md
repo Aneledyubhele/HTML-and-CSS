@@ -3,7 +3,7 @@ What is HTML?
 HTML (Hypertext Makeup Language) HTML is a language used to make web pages. It helps 
 developers organize content like titles, paragraphs, and links. It uses tags enclosed in angle 
 brackets to define different parts of a page. Opening tags start an element, and closing tags end 
-it (<p>, </p>).
+it ('<p>', '</p>').
 CSS
 CSS (Cascading Style Sheets) CSS is the design tool for web pages, determining colors, fonts, 
 sizes, and animations. Even with mistakes, browsers try to make the page look good, making CSS 
