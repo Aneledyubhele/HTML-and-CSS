@@ -6,7 +6,6 @@ HTML (Hypertext Makeup Language) HTML is a language used to make web pages. It h
 developers organize content like titles, paragraphs, and links. It uses tags enclosed in angle 
 brackets to define different parts of a page. Opening tags start an element, and closing tags end 
 it `'<p>,</p>', '<p>,</p>'`
-
 CSS
 
 CSS (Cascading Style Sheets) CSS is the design tool for web pages, determining colors, fonts, 
@@ -197,44 +196,3 @@ The choice of HTML elements and attributes depends on the specific requirements 
 project, emphasizing the importance of considering semantic meaning and accessibility needs. 
 There's no one-size-fits-all approach, and the optimal solution varies based on the context and 
 desired rendering of elements.
-
-
-HTML WORKING WITH GRAPHICS AND IMAGES
-
-Images are very important on the website because make website looks nice and images are all over the place.
-Images can added by using the image element as img`<img src = "image.jpg" alt="#" width="400" hieght="300">`
-
-1.First, we have the source attribute (SRC), which tells the browser which image file to load. 
-2.The alt attribute (ALT), which provides a text description of the image. 
-3.The width and height attributes, which determine the size of the image. So, every image should have all four of these attributes.
-
-Image Formats
-
-GIF
-
-GIFs are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs. It only supports 256 colors, and images can end up looking pixelated, unless you want that retro vibe. GIFs can have transparent areas, but the edges between transparent and solid parts can be jagged.
-
-SVG
- 
-(Scalable Vector Graphics) files are ideal for creating logos, icons, and illustrations due to their vector-based nature, which allows them to be scaled to any size without losing quality, while maintaining a small file size. Unlike pixel-based formats like GIF, SVGs contain instructions for rendering the graphic, making them highly efficient and versatile.
-
-JPG 
-
-JPGs are widely used for compressing photos and are the default format for most digital cameras. When using JPG images on websites, it's important to resize and compress them to prevent slow loading times. Compressing JPGs involves reducing color information to strike a balance between image quality and file size. This can be done manually or with the help of online tools.
-
-PNG
-
-PNG is a modern format useful for transparent images, sometimes better than GIF or JPG in compression. Experiment with compression options to find the smallest file size. Expect newer formats for better compression. Consider size, format, and compression for faster downloads. HTML remains constant regardless of image format.
-
-Responsive Images
-
-Responsive images in CSS are designed to ensure that images display well across devices of varying screen sizes, from large desktop monitors to small mobile screens.High-resolution images can be a problem for users on slow networks or with limited data, as they're large in size, slow to download, and expensive to load.
-
-HTML allows for different image versions to be delivered based on the device's screen size, pixel density, network speed, and other factors.
-
-Figcaption and Figures
-
-Figures and figcaptions are elements used in web design to associate captions with images or other visual content.
-
-
-
