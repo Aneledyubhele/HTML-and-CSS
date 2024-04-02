@@ -260,7 +260,21 @@ Figures and figcaptions are elements used in web design to associate captions wi
 **Enhancing SELECT Statement:**
   - Basic SELECT statement can be enhanced with additional conditions for precise data fetching.
   - Further query refinement discussed in subsequent chapters.
-
+    
+**Removing Table Data:**
+  - Use the `delete` keyword to erase records from a table.
+  - Specify the table where deletions should happen.
+    
+**Selective Deletion:**
+  - Confirm deletion targets with a `select` statement.
+  - Example: 'select * from people where id_number = 1001' checks details of a specific record before deletion.
+  - Execute deletions with a specific condition, like 'delete from people where id_number = 1001'.
+  - Multiple records can be removed at once based on conditions.
+    
+**CRUD Operations:**
+  - Demonstrates CRUD operations - Creating, Reading, Updating, and Deleting data.
+  - Execute these operations using DB Browser.
+ 
 
 
 
