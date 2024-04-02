@@ -243,16 +243,20 @@ Figures and figcaptions are elements used in web design to associate captions wi
   - A statement is the core of SQL, used to retrieve or modify data in databases.
   - Uses operators and uppercase keywords, ending with a semi-colon.
   - Statements can perform various tasks like asking questions, modifying data, creating, tweaking, or deleting tables.
+    
 **Pronunciation of SQL**:
   - Originally SEQUEL (Structured English Query Language), now commonly referred to as SQL.
   - Pronunciation can vary, with some still calling it SEQUEL.
+    
 **SELECT Statement:**
   - Fundamental SQL method for fetching data from a database.
   - Can retrieve non-database text by enclosing it in quotes and ending with a semicolon.
   - Parameters specify data retrieval from the database.
+    
 **Fetching Data from a Table:**
   - Accessed through "browse data," selecting a specific table (e.g., 'people').
   - Field names used in the table to request information.
+    
 **Enhancing SELECT Statement:**
   - Basic SELECT statement can be enhanced with additional conditions for precise data fetching.
   - Further query refinement discussed in subsequent chapters.
