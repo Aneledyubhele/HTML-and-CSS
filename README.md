@@ -274,6 +274,16 @@ Figures and figcaptions are elements used in web design to associate captions wi
 **CRUD Operations:**
   - Demonstrates CRUD operations - Creating, Reading, Updating, and Deleting data.
   - Execute these operations using DB Browser.
+
+**Introduction to MongoDB:**
+  - MongoDB is a popular document database known for its reliability and user-friendly nature.
+  - It also includes CRUD operations, aggregations, and MongoDB drivers usage, providing valuable knowledge to developers.
+
+**What is MongoDB?**
+  - MongoDB is favored by web developers for its ease of use since 2009.
+  - It allows working with data in a document format, making it consistent with applications.
+  - MongoDB supports distributed systems, allowing for easy vertical and horizontal scaling.
+
  
 
 
