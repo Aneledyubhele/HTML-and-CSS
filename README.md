@@ -283,7 +283,13 @@ Figures and figcaptions are elements used in web design to associate captions wi
   - MongoDB is favored by web developers for its ease of use since 2009.
   - It allows working with data in a document format, making it consistent with applications.
   - MongoDB supports distributed systems, allowing for easy vertical and horizontal scaling.
-
+    
+**Insert Documents in MongoDB:**
+  - Two Methods: There are 2 methods to insert documents into a MongoDB database.
+  - `insertOne()`: To insert a single document, use the insertOne() method.
+    - Inserts a single object into the database.
+  - `insertMany()`: To insert multiple documents, use the insertMany() method.
+    - Inserts an array of objects into the database in bulk.
  
 
 
